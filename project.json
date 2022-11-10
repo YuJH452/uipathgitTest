@@ -1,0 +1,84 @@
+{
+  "name": "parallel",
+  "description": "빈 프로세스",
+  "main": "Sequence.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.Testing.Activities": "[22.10.0]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "16a2dca6-3b99-46b3-b445-9b67278c875a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Parallel.xaml",
+      "uniqueId": "4fe6fb75-aeef-4791-89d2-222251d96ee0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ParallelTest.xaml",
+      "uniqueId": "d245b87d-0370-4919-9b41-04f66b559ffd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "eaeb7529-db6d-41cb-8cff-5bc180064fd8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ParallelActivityTest-FourBrowsers.xaml",
+      "uniqueId": "685264e8-e06f-447d-b1ad-41a2b44a1813",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
